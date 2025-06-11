@@ -62,3 +62,9 @@ students = ["c","d" ,"a", "b","f","a","d"]
 print(students.count("a"))
 students.sort()
 print(students)
+#Question no 4:
+students = ["ali","ahmed","Asad"]
+print(students.count("ali"))
+
+
+# Start python 
