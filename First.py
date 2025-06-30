@@ -78,3 +78,43 @@
 # b = int(input("Enter Second Number : "))
 # c = (a >= b)
 # print("The value of c is : ", c)
+
+
+#Type casting
+# a = 10
+# b ="20"
+# # Converting string to integer
+# b = int(b)
+# result = a + b
+# print("The result of addition is : ", result)
+# a= "asad age is"
+# b= 56
+# print( a + " "+ str(b))
+
+
+#Exercise 1
+# a = input("Enter First Number:")
+# b = input("Enter Second Number:")
+# print(int(a) + int(b))
+
+#Exercise 2
+
+# a = int(input("Enter lenght "))
+# b = a * a
+# print("The area of square is : ", b)
+
+#Exercise 3
+# a = float(input("Enter First Number : "))
+# b = float(input("Enter Second Number : "))
+
+# c = (a + b) / 2 
+# print(c)
+#Exercise 4
+# a = int(input("Enter first Number "))
+# b = int(input("Enter Second Number "))
+# if (a > b):
+#     print('A is greater then B' , True)
+# elif (a == b):
+#     print('a = b')
+# else:
+#     print(False)

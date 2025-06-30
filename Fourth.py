@@ -29,13 +29,21 @@
 #dict(list)
 #dist(values)
 #dict.items()
-student = {
-    "name": "Ali",
-    "age": 22,
-    "marks": [10, 20, 30, 40, 50],
-    "Uni": {"Gcuf layyah"}
-}
+# student = {
+#     "name": "Ali",
+#     "age": 22,
+#     "marks": [10, 20, 30, 40, 50],
+#     "Uni": {"Gcuf layyah"}
+# }
 
-# print(student.values())
-print(student["name"])
-print(student.get("name"))
+# # print(student.values())
+# print(student["name"])
+# print(student.get("name"))
+Lecture ={
+    "teacher" : "Asad",
+    "class": {
+        "bio", "Chemistry" ,"Math" 
+    }
+}
+print(Lecture)
+
