@@ -106,3 +106,51 @@
 #     print("Multiple of 7")
 # else:
 #     print("not multiple")
+
+
+# String 
+#string is a data type that store the alphabets or sequence of characters.
+# a = "asad"
+# if a.endswith("D"):
+#     print(True)
+# else :
+#     print(False)
+# b =a.capitalize()
+# new_value = a.replace("asad", "MAlik ")
+# new_value =a.count("a")
+# print(new_value)
+#Question No 1:
+# name = input("Enter Your name: ")
+# print(len(name))
+# Question no 2:
+# word = "$"
+# print(word.count("$"))
+
+#conditional Statement:
+# num = int(input("Enter Number Here "))
+# if (num % 2 == 0):
+#     print("Number is Even")
+# else :
+#     print("Number is Odd")
+
+# Let's Practice
+
+# num1 = int(input("Enter number: "))
+# num2 = int(input("Enter number: "))
+# num3 = int(input("Enter number: "))
+# if num1 == num2 == num3 :
+#     print("All Numbers are Equal") 
+# elif num1 > num2 and num1 > num3 :
+#     print("number 1 is greater")
+# elif num2 > num1 and num2 > num3 :
+#     print("number 2 greater")
+# else :
+#     print("number 3 is greater")
+
+# Number is a multiple of 7 or not
+
+# number = int(input("Enter Number Here: "))
+# if number % 7 == 0 :
+#     print("Yes")
+# else : 
+#     print("No")
