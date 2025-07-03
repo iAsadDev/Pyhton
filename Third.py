@@ -76,14 +76,32 @@
 # Student.pop(0)
 # print(Student)
 #Tuples In Python:
-mov = [
-    input("Enter First Movie "),
-    input("Enter Second Movie "),
-    input("Enter Third Movie ")
-]
+# mov = [
+#     input("Enter First Movie "),
+#     input("Enter Second Movie "),
+#     input("Enter Third Movie ")
+# ]
 
-print(mov)
+# print(mov)
 # mov.append(movie1)
 # mov.append(movie2)
 # mov.append(movie3)
 # mov.extend([movie1, movie2, movie3])
+
+# def plindrome(lst):
+#     reversed_lst = lst.copy()
+#     reversed_lst.reverse()
+#     return lst == reversed_lst
+
+# user_input = input("Enter list element ")
+# lst = user_input.strip().split()
+
+# if plindrome(lst):
+#     print("The list is a"
+# else:
+#     print("This list is not")
+# 
+
+# grade = ['C','D',"A","A","B","A"]
+# grade.sort()
+# print(grade)
