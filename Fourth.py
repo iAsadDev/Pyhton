@@ -39,11 +39,64 @@
 # # print(student.values())
 # print(student["name"])
 # print(student.get("name"))
-Lecture ={
-    "teacher" : "Asad",
-    "class": {
-        "bio", "Chemistry" ,"Math" 
-    }
-}
-print(Lecture)
+# Lecture ={
+#     "teacher" : "Asad",
+#     "class": {
+#         "bio", "Chemistry" ,"Math" 
+#     }
+# }
+# print(Lecture)
 
+# dict = {
+#     "name":"SK",
+#     "cgpa": 2.9,
+#     "college" : ["gc","Layyah"],
+#     "isAdult" : True
+# }
+# dict['male'] = "yes"
+# print(dict)
+
+
+# null = {
+
+# }
+# null["name"] = "ASad"
+# print(null)
+
+# Student = {
+#     "name": "ASAD",
+#     "Subject":{
+#         "Chem": 40,
+#         "bio":53,
+#         "phy": 90
+#     },
+#     "From": "layyah"   
+# }
+
+# Student.update({"name": "La"})
+# print(Student)
+# print("hi")
+
+#Sets in Pyhton:
+#set is the collection of the unordered items.
+set = {1,2,3,4,5}
+set.add("set is mutable")
+print(set)
+# Tuple:
+tub= {
+    "name": "Asad",
+    "class": "BSCS"
+}
+tub.update({"name": "anwar"})
+print(tub)
+#Tuple is also mutable
+
+li= [
+    "asads", 23,"as"
+]
+li.append("talha")
+print(li)
+#List is also mutable 
+tup = (1,2,3,4)
+print(tup)
+#Only tuble is not mutable
