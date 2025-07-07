@@ -79,24 +79,63 @@
 
 #Sets in Pyhton:
 #set is the collection of the unordered items.
-set = {1,2,3,4,5}
-set.add("set is mutable")
-print(set)
-# Tuple:
-tub= {
-    "name": "Asad",
-    "class": "BSCS"
-}
-tub.update({"name": "anwar"})
-print(tub)
-#Tuple is also mutable
+# set = {1,2,3,4,5}
+# set.add("set is mutable")
+# print(set)
+# # Tuple:
+# tub= {
+#     "name": "Asad",
+#     "class": "BSCS"
+# }
+# tub.update({"name": "anwar"})
+# print(tub)
+# #Tuple is also mutable
 
-li= [
-    "asads", 23,"as"
-]
-li.append("talha")
-print(li)
-#List is also mutable 
-tup = (1,2,3,4)
-print(tup)
+# li= [
+#     "asads", 23,"as"
+# ]
+# li.append("talha")
+# print(li)
+# #List is also mutable 
+# tup = (1,2,3,4)
+# print(tup)
 #Only tuble is not mutable
+
+
+#sets::::
+# sets are unorder and mutable  but the element are immutable:
+# collection = {"Asad", 45,"uo"}
+# collection.pop()
+# print(collection)
+#Union Sets:
+
+# set1 ={1,2,3}
+# set2 ={3,4,5}
+# print(set1.union(set2))
+# print(set1.intersection(set2))
+
+#Question No 1
+# dic = {
+#     "table" : [
+#         "a piece of furniture", "list of facts & figures"
+#     ],
+#     "cat":"a small animal"
+# }
+
+# print(dic.get('cat'))
+
+
+#Question No 2:
+# subject ={"python", "java", "C++","python","javascript","java","python","java","C++","C"}
+# print(len(subject))
+#Question NO 3:
+# marks = {}
+# sub1 = int(input("Enter marks phy"))
+# marks.update({"phy": sub1})
+# sub2 = int(input("Enter marks chem"))
+# marks.update({"chem": sub2})
+# sub3 = int(input("Enter marks bio"))
+# marks.update({"bio": sub3})
+
+# print(marks)
+
