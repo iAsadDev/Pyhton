@@ -27,11 +27,27 @@
 # while idx < len(nums)  :
 #     print(nums[idx])
 #     idx +=1 
-#5 
-nums = (1, 4, 9, 16, 25, 36, 49, 64, 81,100)
-x=38
-i =0
-while i < len(nums) :
-    if(nums[i] == x):
-        print(i)
-    i +=1
+#Question No 5
+# nums = (1, 4, 9, 16, 25, 36, 49, 64, 81,100)
+# x=38
+# i =0
+# while i < len(nums) :
+#     if(nums[i] == x):
+#         print(i)
+#     i +=1
+
+
+# nums = [1,4,9,16,25,36,49,64,81,100]
+# i =0
+# while i < len(nums):
+#     print(nums[i])
+#     i +=1 
+
+#Break and Continue
+# i = 0
+# while i <=5:
+#     if(i%2 == 0):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
