@@ -68,3 +68,70 @@
 #         print("n found")
 #         break
 #     print(char)   
+
+# nums = [1,4,9,16,25,36,49,64,81,100]
+# for n in nums :
+#     print(n)
+
+# nums = (1,4,9,16,25,36,49,64,81,100)
+# x = int(input("Enter Number "))
+# idx =0
+# for s in nums :
+#     if(s == x):
+#         print(idx)
+#         break
+#     idx+=1
+
+# Range() :
+#linear Search:
+
+# for el in range(1,101,3):
+#     print(el)
+
+# for n in range(100,0,-1):
+#     print(n)
+
+
+#Table Logic
+# num = int(input("Enter Number "))
+# for n in range(1,11):
+#     print(num,"*", n ,"=",num *n)
+
+
+#pass Statement
+
+# for el in range(10):
+#     pass
+# print("pass")
+# for el in range(100):
+#     print(el)
+# i=0
+# if i >5:
+#     pass
+# print("Hello ")
+
+# Let's Practice
+# find the sum of first n numbers:
+# n=5
+# sum =0
+# for i in range(1, n+1):
+#     sum +=i
+# print(sum)
+
+
+# num = int(input("enter Number "))
+# sum = 1
+# i =1
+# while i <= num:
+#     sum *=i
+#     i += 1
+# print(sum)
+#find factorail
+# 
+#  
+# import math
+# n=int(input("number: "))
+# res = math.factorial(n)
+# print(res)
+
+
