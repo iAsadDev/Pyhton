@@ -51,3 +51,20 @@
 #         continue
 #     print(i)
 #     i+=1
+# li = [1,2,3]
+# for el  in li:
+#     print(el)
+
+# movie =["apple", "abnana","grapes", "apple"]
+
+# for el in movie:
+#     print(el)
+# tup =(1,2,3,4,5)
+# for el in tup :
+#     print(el)
+# str = "apna"
+# for char in str :
+#     if(char == 'n'):
+#         print("n found")
+#         break
+#     print(char)   
